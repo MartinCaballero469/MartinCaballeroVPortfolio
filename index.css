@@ -1,0 +1,103 @@
+body,#mainBox { min-height: 100vh; }
+
+#mainBox {
+    margin-top: 1% !important;
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+}
+
+body{
+    background: #282a35 !important;
+}
+
+#mainFoot,#navi {
+    background: #1b1c23 !important;
+}
+
+.footgl {
+    background: none !important;
+    border: none !important;
+}
+
+
+#cursor {
+    -webkit-animation: blink 1s 2s infinite forwards;
+    -moz-animation: blink 1s 2s infinite forwards;
+    -o-animation: blink 1s 2s infinite forwards;
+    animation: blink 1s 2s infinite forwards;
+  }
+  #MainHeading {
+    line-height: normal !important;
+  }
+
+  @-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
