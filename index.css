@@ -1,9 +1,10 @@
-body,#mainBox { min-height: 100vh; }
+body,#mainBox,#IntroBox { min-height: 100vh; }
 
 #mainBox {
+    margin-bottom: 1% !important;
     margin-top: 1% !important;
-    margin-left: 1% !important;
-    margin-right: 1% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 body{
@@ -12,6 +13,7 @@ body{
 
 #mainFoot,#navi {
     background: #1b1c23 !important;
+    padding: 1%;
 }
 
 .footgl {
