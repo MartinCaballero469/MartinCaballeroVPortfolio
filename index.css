@@ -1,5 +1,7 @@
-body,#mainBox,#IntroBox { min-height: 100vh; }
-
+body,#mainBox,#IntroBox { min-height: 100vh !important; }
+#progbarRow {
+  min-height: 20vh !important;
+}
 #mainBox {
     margin: auto !important;
 }

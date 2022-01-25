@@ -61,36 +61,51 @@
     </div>
   </nav>
   <div class="container" id="mainBox">
-    <div class="progress "id="progWalk" style="height:7px">
-        <div
-          class="progress-bar progress-bar-striped progress-bar-animated"
-          role="progressbar"
-          style="width: 0%;"
-          aria-valuenow="0"
-          aria-valuemin="0"
-          aria-valuemax="100"
-        ></div>
-        <div
-          class="progress-bar bg-success progress-bar-striped progress-bar-animated"
-          role="progressbar"
-          style="width: 0%;"
-          aria-valuenow="0"
-          aria-valuemin="0"
-          aria-valuemax="100"
-        ></div>
-        <div
-          class="progress-bar bg-info progress-bar-striped progress-bar-animated"
-          role="progressbar"
-          style="width: 0%;"
-          aria-valuenow="0"
-          aria-valuemin="0"
-          aria-valuemax="100"
-        ></div>      
+    <div class="row align-items-center text-center" id="progbarRow">
+        <div class="progress"id="progWalk" style="padding: 0% !important;">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              id="progSec1"
+              role="progressbar"
+              aria-valuenow=""
+              aria-valuemin="0"
+              aria-valuemax=""
+            ></div>
+            <div
+              class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+              id="prgSec2"
+              role="progressbar"
+              style="width: 0%;"
+              aria-valuenow="0"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+            <div
+              class="progress-bar bg-info progress-bar-striped progress-bar-animated"
+              id="progSec3"
+              role="progressbar"
+              style="width: 0%;"
+              aria-valuenow="0"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>      
+        </div>
     </div>
     <div class="row align-items-center text-center" id="IntroBox">
     <div class="col-md-12" id="ProgSelection"><div class="" id="questionBox">
-      <button class="btn btn-outline-light"id="Professional">Professional</button>
-      <button class="btn btn-outline-light"id="Personal">Personal</button>
+        <div class="container bg-light rounded" id="PPD">
+            <div class="row align-items-center text-center">
+               <div class="col">
+                Professional
+               </div> 
+               <div class="col">
+                Personal
+               </div>
+            </div>
+        </div>
+        <p class="text-white">What side of me would you like to learn more about Professional or Personal</p>
+      <button class="btn btn-outline-light"id="Professional" onclick="choosePath()">Professional</button>
+      <button class="btn btn-outline-light"id="Personal" onclick="choosePath()">Personal</button>
     </div>
   </div>
   </div>
