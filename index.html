@@ -21,10 +21,12 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
   rel="stylesheet"
 />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <link rel="stylesheet" href="index.css">
 </head>          
 <body id="ibody">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navi">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top " id="navi">
     <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-house" viewBox="0 0 19 19">
       <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
       <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
@@ -59,20 +61,431 @@
       </ul>
     </div>
   </nav>
-  <div class="container" id="mainBox">
-    <div class="row align-items-center text-center" id="IntroBox">
-      <div class="col-md-12" id="StartScreen">
-    <img src="Resources/FaceProfile.png" class="img-fluid" width="150" height="130">
-      <h1 class="text-white" id="MainHeading">Martin Caballero<br>Software Developer<span class="text-white" id="cursor">_</span></h1><p class="text-white">Hello Welcome to my Website feel free to explore or I can give you a walkthrough of my content<br><br><a href="redirectPage.html" class="btn btn-primary btn-dark btn-outline-light" role="button" aria-disabled="true">Walkthrough</a>
+  <div class="container-fluid" id="mainBox1">
+    <div class="row align-items-center text-center" id="IntroBox" style="z-index: 5 !important;">
+      <div class="col-md-12" id="StartScreen" style="z-index: 2 !important;">
+    <img src="Resources/FaceProfile.png" class="img-fluid" width="150" height="130" >
+      <h1 class="text-white" id="MainHeading">Martin Caballero<br>Software Developer<span class="text-white" id="cursor">_</span></h1><p class="text-white">Hello Welcome to my Website feel free to explore or I can give you a walkthrough of my content<br><br><a href="#mainBox2" class="btn btn-primary btn-dark btn-outline-light" role="button" aria-disabled="true">Start</a>
       </p>  
     </div>
   </div>
+  <div class="space stars1 mask" style="z-index: 1 !important;"></div>
+  <div class="space stars2 mask" style="z-index: 1 !important;"></div>
+  <div class="space stars3 mask" style="z-index: 1 !important;"></div>
   </div>
-  <footer class="bg-dark text-center text-white">
+  <div class="container-fluid bg-light" id="mainBox2" >
+  <div class="row text-center  border-bottom">
+      <div class="col">
+          <h2 class=" p-4 display-5">Portfolio</h2>
+          <div class="contaienr p-2">
+              <div class="row ">
+                  <div class="col "><div><svg class="m-3" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cup" viewBox="0 0 16 16">
+                    <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"/></svg><h3>Jobs</h3></div></div>
+                  <div class="col "><div><svg class="m-3" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-file-earmark-code" viewBox="0 0 16 16">
+                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                    <path d="M8.646 6.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 9 8.646 7.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 9l1.647-1.646a.5.5 0 0 0 0-.708z"/>
+                  </svg><h3>Skills</h3></div></div>
+                  <div class="col "><div><svg class="m-3" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                    <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+                    <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+                  </svg><h3 class="">Education</h3></div></div>
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="row border-bottom">
+    <div class="col">
+        <h3 class=" text-center pt-5 pb-5">Job Experience</h3>
+          <div class="row">
+            <div class="col mt-2 p-0 pt-2 rounded m-3 " style="min-width: 300px; border-width: 2px !important;">
+              <h2 id="JobTitle"><img src="Resources\Salesforce.com_logo.svg.png" class="m-4" style="max-height: 34px !important;">Software Engineer
+              </h2>
+              <div class="row text-center m-1">
+                <div class="col h5  p-2 m-2" style="max-width: 500px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor" class="bi bi-calendar" viewBox="0 0 19 19">
+                      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                    </svg></i>Date<br><span class="badge bg-dark rounded-pill ms-2">Jul 2020 - Jan 2022</span>
+                </div>
+                <div class="col h5  p-2 m-2" style="max-width: 500px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor" class="bi bi-clock" viewBox="0 0 19 19">
+                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                  </svg></i>Time<br><span class="badge bg-dark rounded-pill ms-2 " style="min-width: 150px;"> 1 Year 6 Months</span>
+              </div>
+              <div class="col h5 p-2 m-2" style="max-width: 500px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor" class="bi bi-calendar" viewBox="0 0 19 19">
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg></i>Location<br><span class="badge bg-dark rounded-pill ms-2 " style="min-width: 150px;">Remote</span>
+            </div>
+              </div>
+              <div class="row m-1">
+                <div class="col rounded p-2 m-2 ">
+                  <h4 class="text-center">Brief Description</h4>
+                  <p class="text-center">As a Software Engineer I was asigned to a IT Scrum Team to maintain & improve Salesforce Internal Security using tools such as SAML,OAUTH,SSO.
+                  </p>
+                </div>
+              </div>
+              <h4 class="text-center">Main Tasks</h4>
+              <div class="accordion accordion-flush bg-dark" id="accordionFlushExample">
+                <div class="accordion-item " style="background: #333333;">
+                  <h2 class="accordion-header text-black" id="flush-headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-mdb-toggle="collapse"
+                      data-mdb-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                      style="background: #333333;"
+                    >
+                      Application Migration
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-mdb-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body" style="background: #262626 !important;">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                      brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                      et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                      craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                      heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item" style="background: #333333;">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-mdb-toggle="collapse"
+                      data-mdb-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                      style="background: #333333;"
+                    >
+                      CICD Implementaion
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-mdb-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body" style="background: #262626 !important;">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                      brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                      et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                      craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                      heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item" style="background: #333333;">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-mdb-toggle="collapse"
+                      data-mdb-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                      style="background: #333333;"
+                    >
+                      Active Directory Managment
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-mdb-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body" style="background: #262626 !important;">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                      brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                      et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                      craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                      heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mt-2 p-0 pt-2
+             rounded m-3" style="min-width: 300px; border-width: 2px !important;" >
+              <h2 id="JobTitle"><img src="Resources\Salesforce.com_logo.svg.png" class="m-4" style="max-height: 34px !important;"><span class="">Technical Writer
+              </span></h2>
+              <div class="row text-center m-1">
+                <div class="col h5  p-2 m-2" style="max-width: 500px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor" class="bi bi-calendar" viewBox="0 0 19 19">
+                      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                    </svg></i>Date<br><span class="badge bg-dark rounded-pill ms-2 text-white">Jan 2020 - Jul 2020</span>
+                </div>
+                <div class="col h5  p-2 m-2" style="max-width: 500px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor" class="bi bi-clock" viewBox="0 0 19 19">
+                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                  </svg></i>Time<br><span class="badge bg-dark rounded-pill ms-2 text-white" style="min-width: 150px;">6 Months</span>
+              </div>
+              <div class="col h5 p-2 m-2" style="max-width: 500px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor" class="bi bi-calendar" viewBox="0 0 19 19">
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg></i>Location<br><span class="badge bg-dark rounded-pill ms-2 text-white" style="min-width: 150px;">Dallas,TX</span>
+            </div>
+              </div>
+              <div class="row m-1">
+                <div class="col  rounded p-2 m-2 ">
+                  <h4 class="text-center">Brief Description</h4>
+                  <p class="text-center">As a Tehcnical Writer I was asigned to Maintain & Improve Documnetation for Various IT Scrum Teams primarly located in <a class="link-dark" href="https://www.atlassian.com/software/confluence/features">Confluence</a>.
+                  </p>
+                </div>
+              </div>
+              <h4 class="text-center">Main Tasks</h4>
+              <div class="accordion accordion-flush bg-dark" id="accordionFlushExample">
+                <div class="accordion-item " style="background: #333333;">
+                  <h2 class="accordion-header text-black" id="flush-headingOnee">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-mdb-toggle="collapse"
+                      data-mdb-target="#flush-collapseOnee"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOnee"
+                      style="background: #333333;"
+                    >
+                      Creating/Designing Confleunce Pages
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOnee"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOnee"
+                    data-mdb-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body" style="background: #262626 !important;">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                      brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                      et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                      craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                      heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item" style="background: #333333;">
+                  <h2 class="accordion-header" id="flush-headingTwoe">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-mdb-toggle="collapse"
+                      data-mdb-target="#flush-collapseTwoe"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwoe"
+                      style="background: #333333;"
+                    >
+                      Confleunce Admin
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwoe"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwoe"
+                    data-mdb-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body" style="background: #262626 !important;">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                      brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                      et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                      craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                      heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid bg-light" id="mainBox3" >
+  <div class="row border-bottom">
+    <div class="col">
+        <h3 class=" text-center pt-5 pb-5">Skills</h3>
+          <div class="row d-flex justify-content-center">
+            <h5 class="">Programming Languages</h5>
+            <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom" ><div class="card shadow-3 m-3">
+              <div class="card-body">
+                <h5 class="card-title"><img src="Resources\1200px-Python-logo-notext.svg.png" width="25px" height="25px"> Python</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div></div>
+            <div class="col-md mt-2 p-0 pt-2 m-3  bg-image hover-zoom"><div class="card shadow-3 m-3" >
+              <div class="card-body">
+                <h5 class="card-title"><img src="Resources\Java_programming_language_logo.svg.png" width="25px" height="30px"> Java</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div></div>
+            <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom"><div class="card shadow-3 m-3" >
+              <div class="card-body">
+                <h5 class="card-title"><img src="Resources\HCJ.png" width="30px" height="30px"> Html/Css/Javascript</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div></div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <h5 class="">Software/Programs</h5>
+      <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom" ><div class="card shadow-3 m-2">
+        <div class="card-body">
+          <h5 class="card-title"><img src="Resources\sl.png" width="25px" height="25px">Salesforce</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div></div>
+      <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom"><div class="card shadow-3 m-2" >
+        <div class="card-body">
+          <h5 class="card-title"><img src="Resources\Powershelllogo.png" width="28" height="25">Powershell</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div></div>
+      <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom"><div class="card shadow-3 m-2" >
+        <div class="card-body">
+          <h5 class="card-title"><img src="Resources\Confluence@2x-blue.png" width="30px" height="27px"> Confleunce</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div></div>
+      <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom"><div class="card shadow-3 m-2" >
+        <div class="card-body">
+          <h5 class="card-title"><img src="Resources\1200px-Jenkins_logo.svg.png" width="19px" height="30px"> Jenkins</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div></div>
+      <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom"><div class="card shadow-3 m-2p=" >
+        <div class="card-body">
+          <h5 class="card-title"><img src="Resources\logo-community-sauce-logo.png" width="30px" height="30px"> SauceLabs</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div></div>
+</div>
+  </div>
+  </div>
+  </div>
+  <div class="container-fluid bg-light" id="mainBox3" >
+    <div class="row border-bottom">
+      <div class="col">
+          <h3 class=" text-center pt-5 pb-5">Education</h3>
+            <div class="row d-flex justify-content-center">
+              <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom" >
+               <!-- Pills navs -->
+<ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a
+      class="nav-link"
+      id="ex3-tab-0"
+      data-mdb-toggle="pill"
+      href="#ex3-pills-0"
+      role="tab"
+      aria-controls="ex3-pills-0"
+      aria-selected="false"
+      >High School</a
+    >
+  </li>
+  <li class="nav-item" role="presentation">
+    <a
+      class="nav-link active"
+      id="ex3-tab-1"
+      data-mdb-toggle="pill"
+      href="#ex3-pills-1"
+      role="tab"
+      aria-controls="ex3-pills-1"
+      aria-selected="true"
+      >Asscoiates</a
+    >
+  </li>
+  <li class="nav-item" role="presentation">
+    <a
+      class="nav-link"
+      id="ex3-tab-2"
+      data-mdb-toggle="pill"
+      href="#ex3-pills-2"
+      role="tab"
+      aria-controls="ex3-pills-2"
+      aria-selected="false"
+      >Bachelores</a
+    >
+  </li>
+  <li class="nav-item" role="presentation">
+    <a
+      class="nav-link"
+      id="ex3-tab-3"
+      data-mdb-toggle="pill"
+      href="#ex3-pills-3"
+      role="tab"
+      aria-controls="ex3-pills-3"
+      aria-selected="false"
+      >Masters</a
+    >
+  </li>
+</ul>
+<!-- Pills navs -->
+
+<!-- Pills content -->
+<div class="tab-content" id="ex2-content">
+  <div
+    class="tab-pane fade show active"
+    id="ex3-pills-1"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-1"
+  >
+    Tab 1 content
+  </div>
+  <div
+    class="tab-pane fade"
+    id="ex3-pills-2"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-2"
+  >
+    Tab 2 content
+  </div>
+  <div
+    class="tab-pane fade"
+    id="ex3-pills-3"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-3"
+  >
+    Tab 3 content
+  </div>
+</div>
+<!-- Pills content -->         
+      </div>
+      
+    </div>
+    </div>
+    </div>
+  <footer class="bg-dark text-center text-white p-2" >
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->
-      <section class="mb-1">
+      <section class="mb-4">
         <!-- Linkedin -->
         <a
           class="btn btn-outline-light btn-primary btn-floating m-1"
