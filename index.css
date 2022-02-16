@@ -1,4 +1,4 @@
-body,#mainBox1,#mainbox2,#IntroBox { min-height: 100vh !important;  
+body,#mainBox1,#mainbox2,#mainBox3,#mainBox4,#IntroBox { min-height: 100vh !important;  
 }
 #progbarRow {
   min-height: 10vh !important;
@@ -10,14 +10,12 @@ html {
 #PPD {
   min-height: 70vh !important;
 }
-#mainBox1,#mainBox2 {
+#mainBox1,#mainBox2,#mainBox3,#mainBox4 {
     margin: auto !important;
     
 }
 
-body{
-    background: #282a35 !important;
-}
+
 
 #mainFoot,#navi {
     background: #1b1c23 !important;
@@ -145,11 +143,17 @@ body{
 
 
 .space {
-  background: rgba(0, 0, 0, 0.1) center / 200px 200px round;
-
+  background: rgba(0, 0, 0, 0.1) center / 200px 200px;
+    
+  
 }
 
+
 .stars1 {
+  background: rgba(0, 0, 0, 0) center / 200px 200px;
+  animation-duration: 500s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
 
   background-image: 
     radial-gradient(1px 1px at 25px 5px, white, rgba(255, 255, 255, 0)), 
@@ -159,8 +163,20 @@ body{
     radial-gradient(2px 2px at 15px 125px, white, rgba(255, 255, 255, 0)), 
     radial-gradient(2.5px 2.5px at 110px 80px, white, rgba(255, 255, 255, 0));
 }
-
+@keyframes slidein {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
 .stars2 {
+  background: rgba(0, 0, 0, 0) center / 200px 200px;
+  animation-duration: 500s;
+  animation-name: slidein;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
 
   background-image: 
     radial-gradient(1px 1px at 75px 125px, white, rgba(255, 255, 255, 0)), 
@@ -171,8 +187,13 @@ body{
     radial-gradient(2.5px 2.5px at 5px 5px, white, rgba(255, 255, 255, 0));
 }
 
-.stars3 {
 
+.stars3 {
+  background: rgba(0, 0, 0, 0) center / 200px 200px;
+  animation-duration: 500s;
+  animation-name: slidein;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
   background-image: 
     radial-gradient(1px 1px at 10px 10px, white, rgba(255, 255, 255, 0)), 
     radial-gradient(1px 1px at 150px 150px, white, rgba(255, 255, 255, 0)), 
@@ -180,6 +201,7 @@ body{
     radial-gradient(1.5px 1.5px at 175px 180px, white, rgba(255, 255, 255, 0)), 
     radial-gradient(2px 2px at 195px 95px, white, rgba(255, 255, 255, 0)), 
     radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0));
+    
 }
 
 #PL {
@@ -188,10 +210,15 @@ body{
 }
 .card {
   box-shadow: 0 0 5px white;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
   cursor: pointer;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+39,1e1b26+53&0+38,1+55 */
    }
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
   }
+  #Asscoiates a  {
+    background: rgb(0,183,74) !important;
+    background: linear-gradient(90deg, rgba(0,183,74,1) 67%, rgba(79,79,79,1) 67%) !important;
+  }
+

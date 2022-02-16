@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="index.css">
 </head>          
 <body id="ibody">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top " id="navi">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-2" id="navi">
     <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-house" viewBox="0 0 19 19">
       <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
       <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
@@ -62,21 +62,23 @@
     </div>
   </nav>
   <div class="container-fluid" id="mainBox1">
-    <div class="row align-items-center text-center" id="IntroBox" style="z-index: 5 !important;">
+    <div class="row align-items-center text-center bg-dark " id="IntroBox">
+      <div class="space stars1 mask" style="height: 110% !important;"></div>
+      <div class="space stars2 mask" style="height: 110% !important;"></div>
+      <div class="space stars3 mask" style="height: 110% !important;"></div>
       <div class="col-md-12" id="StartScreen" style="z-index: 2 !important;">
     <img src="Resources/FaceProfile.png" class="img-fluid" width="150" height="130" >
       <h1 class="text-white" id="MainHeading">Martin Caballero<br>Software Developer<span class="text-white" id="cursor">_</span></h1><p class="text-white">Hello Welcome to my Website feel free to explore or I can give you a walkthrough of my content<br><br><a href="#mainBox2" class="btn btn-primary btn-dark btn-outline-light" role="button" aria-disabled="true">Start</a>
       </p>  
     </div>
   </div>
-  <div class="space stars1 mask" style="z-index: 1 !important;"></div>
-  <div class="space stars2 mask" style="z-index: 1 !important;"></div>
-  <div class="space stars3 mask" style="z-index: 1 !important;"></div>
+
   </div>
   <div class="container-fluid bg-light" id="mainBox2" >
-  <div class="row text-center  border-bottom">
-      <div class="col">
-          <h2 class=" p-4 display-5">Portfolio</h2>
+  <div style="min-height: 50px !important;" ></div>
+  <div class="row text-center  border-bottom ">
+      <div class="col m-2">
+          <h2 class=" p-4 display-2">Portfolio</h2>
           <div class="contaienr p-2">
               <div class="row ">
                   <div class="col "><div><svg class="m-3" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cup" viewBox="0 0 16 16">
@@ -95,7 +97,7 @@
   </div>
   <div class="row border-bottom">
     <div class="col">
-        <h3 class=" text-center pt-5 pb-5">Job Experience</h3>
+        <h1 class="pt-5 pb-3 p-1">Job Experience</h1>
           <div class="row">
             <div class="col mt-2 p-0 pt-2 rounded m-3 " style="min-width: 300px; border-width: 2px !important;">
               <h2 id="JobTitle"><img src="Resources\Salesforce.com_logo.svg.png" class="m-4" style="max-height: 34px !important;">Software Engineer
@@ -331,22 +333,22 @@
   <div class="container-fluid bg-light" id="mainBox3" >
   <div class="row border-bottom">
     <div class="col">
-        <h3 class=" text-center pt-5 pb-5">Skills</h3>
+        <h1 class="pt-5 pb-3 p-1">Skills</h1>
           <div class="row d-flex justify-content-center">
             <h5 class="">Programming Languages</h5>
-            <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom" ><div class="card shadow-3 m-3">
+            <div class="col-md  bg-image hover-zoom" ><div class="card shadow-3 m-3">
               <div class="card-body">
                 <h5 class="card-title"><img src="Resources\1200px-Python-logo-notext.svg.png" width="25px" height="25px"> Python</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div></div>
-            <div class="col-md mt-2 p-0 pt-2 m-3  bg-image hover-zoom"><div class="card shadow-3 m-3" >
+            <div class="col-md   bg-image hover-zoom"><div class="card shadow-3 m-3" >
               <div class="card-body">
                 <h5 class="card-title"><img src="Resources\Java_programming_language_logo.svg.png" width="25px" height="30px"> Java</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div></div>
-            <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom"><div class="card shadow-3 m-3" >
+            <div class="col-md    bg-image hover-zoom"><div class="card shadow-3 m-3" >
               <div class="card-body">
                 <h5 class="card-title"><img src="Resources\HCJ.png" width="30px" height="30px"> Html/Css/Javascript</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -355,31 +357,31 @@
     </div>
     <div class="row d-flex justify-content-center">
       <h5 class="">Software/Programs</h5>
-      <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom" ><div class="card shadow-3 m-2">
+      <div class="col-md   bg-image hover-zoom" ><div class="card shadow-3 m-2">
         <div class="card-body">
           <h5 class="card-title"><img src="Resources\sl.png" width="25px" height="25px">Salesforce</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div></div>
-      <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom"><div class="card shadow-3 m-2" >
+      <div class="col-md   bg-image hover-zoom"><div class="card shadow-3 m-2" >
         <div class="card-body">
           <h5 class="card-title"><img src="Resources\Powershelllogo.png" width="28" height="25">Powershell</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div></div>
-      <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom"><div class="card shadow-3 m-2" >
+      <div class="col-md   bg-image hover-zoom"><div class="card shadow-3 m-2" >
         <div class="card-body">
           <h5 class="card-title"><img src="Resources\Confluence@2x-blue.png" width="30px" height="27px"> Confleunce</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div></div>
-      <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom"><div class="card shadow-3 m-2" >
+      <div class="col-md   bg-image hover-zoom"><div class="card shadow-3 m-2" >
         <div class="card-body">
           <h5 class="card-title"><img src="Resources\1200px-Jenkins_logo.svg.png" width="19px" height="30px"> Jenkins</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div></div>
-      <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom"><div class="card shadow-3 m-2p=" >
+      <div class="col-md   bg-image hover-zoom"><div class="card shadow-3 m-2" >
         <div class="card-body">
           <h5 class="card-title"><img src="Resources\logo-community-sauce-logo.png" width="30px" height="30px"> SauceLabs</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -389,60 +391,73 @@
   </div>
   </div>
   </div>
-  <div class="container-fluid bg-light" id="mainBox3" >
+  <div class="container-fluid bg-light" id="mainBox4" >
     <div class="row border-bottom">
-      <div class="col">
-          <h3 class=" text-center pt-5 pb-5">Education</h3>
+      <h1 class="pt-5 pb-3 p-">Education</h1>
+      <div class="col-md">
             <div class="row d-flex justify-content-center">
               <div class="col-md mt-2 p-0 pt-2 m-3 bg-image hover-zoom" >
                <!-- Pills navs -->
-<ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+               <h3 class="text-center">Degree Progress</h3>
+<ul class="nav nav-pills nav-justified mb-3 p-3" id="ex1" role="tablist">
   <li class="nav-item" role="presentation">
     <a
-      class="nav-link"
+      style="min-width:150px !important;"
+      class="nav-link bg-success text-white"
       id="ex3-tab-0"
       data-mdb-toggle="pill"
       href="#ex3-pills-0"
       role="tab"
       aria-controls="ex3-pills-0"
       aria-selected="false"
-      >High School</a
+      ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+      </svg>High School</a
     >
   </li>
-  <li class="nav-item" role="presentation">
+  <li class="nav-item" id="Asscoiates"role="presentation">
     <a
-      class="nav-link active"
+      style="min-width:150px !important;"
+      class="nav-link active text-white"
       id="ex3-tab-1"
       data-mdb-toggle="pill"
       href="#ex3-pills-1"
       role="tab"
       aria-controls="ex3-pills-1"
       aria-selected="true"
-      >Asscoiates</a
+      ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 18 18">
+        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+      </svg>Asscoiates</a
     >
   </li>
   <li class="nav-item" role="presentation">
     <a
-      class="nav-link"
+      style="min-width:150px !important; background: #4f4f4f !important;"
+      class="nav-link text-white "
       id="ex3-tab-2"
       data-mdb-toggle="pill"
       href="#ex3-pills-2"
       role="tab"
       aria-controls="ex3-pills-2"
       aria-selected="false"
-      >Bachelores</a
+      ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 18 18">
+        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+      </svg>Bachelores</a
     >
   </li>
   <li class="nav-item" role="presentation">
     <a
-      class="nav-link"
+      style="min-width:150px !important; background: #4f4f4f !important;"
+      class="nav-link text-white"
       id="ex3-tab-3"
       data-mdb-toggle="pill"
       href="#ex3-pills-3"
       role="tab"
       aria-controls="ex3-pills-3"
       aria-selected="false"
-      >Masters</a
+      ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 18 18">
+        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+      </svg>Masters</a
     >
   </li>
 </ul>
@@ -477,8 +492,69 @@
       
     </div>
     </div>
+    <div class="col-md">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md mt-2 p-3 pt-2 m-3 bg-image " >
+            <!-- Carousel wrapper -->
+            <h3 class=" text-center">Certificates</h3>
+<div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark" data-mdb-ride="carousel">
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button
+      data-mdb-target="#carouselDarkVariant"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      data-mdb-target="#carouselDarkVariant"
+      data-mdb-slide-to="1"
+      aria-label="Slide 1"
+    ></button>
+
+  </div>
+
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <a class="stretched-link" href="https://coursera.org/share/c663b904cdaacbc8ffc4705d9036e466"></a>
+      <img src="Resources\CourseraCertScreenshot.png" class="d-block w-100" alt="Motorbike Smoke"/>
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <a class="stretched-link" href="https://www.scrum.org/certificates/552704"></a>
+      <img src="Resources\ScrumCertScreenShot.png" class="d-block w-100" alt="Mountaintop"/>
+      <div class="carousel-caption d-none d-md-block">
+
+      </div>
+    </div>
+
+    <!-- Single item -->
+
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselDarkVariant" data-mdb-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselDarkVariant" data-mdb-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel wrapper -->
+          </div>
+        </div>
+      </div>
     </div>
     </div>
+  </div>
   <footer class="bg-dark text-center text-white p-2" >
     <!-- Grid container -->
     <div class="container p-4 pb-0">
