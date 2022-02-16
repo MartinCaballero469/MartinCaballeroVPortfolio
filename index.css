@@ -140,17 +140,8 @@ html {
   color: white !important;
 }
 
-
-
-.space {
-  background: rgba(0, 0, 0, 0.1) center / 200px 200px;
-    
-  
-}
-
-
 .stars1 {
-  background: rgba(0, 0, 0, 0) center / 200px 200px;
+  background: rgba(0, 0, 0, 0) center / 200px 200px ;
   animation-duration: 500s;
   animation-name: slidein;
   animation-iteration-count: infinite;
