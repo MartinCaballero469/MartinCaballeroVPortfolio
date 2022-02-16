@@ -1,4 +1,4 @@
-body,#mainBox1,#mainbox2,#mainBox3,#mainBox4,#IntroBox { min-height: 100vh !important;  
+body,#mainBox1,#mainbox2,#mainBox4,#IntroBox { min-height: 100vh !important;  
 }
 #progbarRow {
   min-height: 10vh !important;
@@ -136,9 +136,7 @@ html {
   background: #262626 !important;
 }
 
-.accordion-button {
-  color: white !important;
-}
+
 
 
 
