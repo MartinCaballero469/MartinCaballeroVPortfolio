@@ -149,7 +149,7 @@ html {
 
 .stars1 {
   background: rgba(0, 0, 0, 0) center / 200px 200px ;
-  animation-duration: 500s;
+  animation-duration: 400s;
   animation-name: slidein;
   animation-iteration-count: infinite;
 
@@ -171,7 +171,7 @@ html {
 }
 .stars2 {
   background: rgba(0, 0, 0, 0) center / 200px 200px;
-  animation-duration: 500s;
+  animation-duration: 400s;
   animation-name: slidein;
   animation-direction: reverse;
   animation-iteration-count: infinite;
@@ -188,7 +188,7 @@ html {
 
 .stars3 {
   background: rgba(0, 0, 0, 0) center / 200px 200px;
-  animation-duration: 500s;
+  animation-duration: 400s;
   animation-name: slidein;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -219,4 +219,21 @@ html {
     background: rgb(0,183,74) !important;
     background: linear-gradient(90deg, rgba(0,183,74,1) 67%, rgba(79,79,79,1) 67%) !important;
   }
+
+#Myface {
+  animation: circle 6s linear infinite !important;
+}
+@keyframes circle{
+  0%{
+    transform:rotate(0deg)
+              translate(-10px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-10px)
+              rotate(-360deg);
+  }
+}
 
