@@ -155,9 +155,7 @@ html {
 
 .stars1 {
   background: rgba(0, 0, 0, 0) center / 200px 200px ;
-  animation-duration: 400s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
+
 
   background-image: 
     radial-gradient(1px 1px at 25px 5px, white, rgba(255, 255, 255, 0)), 
@@ -167,20 +165,10 @@ html {
     radial-gradient(2px 2px at 15px 125px, white, rgba(255, 255, 255, 0)), 
     radial-gradient(2.5px 2.5px at 110px 80px, white, rgba(255, 255, 255, 0));
 }
-@keyframes slidein {
-  from {
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(180deg);
-  }
-}
+
 .stars2 {
   background: rgba(0, 0, 0, 0) center / 200px 200px;
-  animation-duration: 400s;
-  animation-name: slidein;
-  animation-direction: reverse;
-  animation-iteration-count: infinite;
+
 
   background-image: 
     radial-gradient(1px 1px at 75px 125px, white, rgba(255, 255, 255, 0)), 
@@ -194,10 +182,7 @@ html {
 
 .stars3 {
   background: rgba(0, 0, 0, 0) center / 200px 200px;
-  animation-duration: 400s;
-  animation-name: slidein;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
+
   background-image: 
     radial-gradient(1px 1px at 10px 10px, white, rgba(255, 255, 255, 0)), 
     radial-gradient(1px 1px at 150px 150px, white, rgba(255, 255, 255, 0)), 
